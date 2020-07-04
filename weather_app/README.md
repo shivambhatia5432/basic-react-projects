@@ -1,3 +1,4 @@
+It is a simple weather website that updates background with city images.<br />
 Hosted Link: https://weather-app-shivam.netlify.app
 
 
