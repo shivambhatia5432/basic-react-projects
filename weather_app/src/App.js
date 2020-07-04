@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
 
-
+  const Key="KEY";
   const [temp,settemp]=useState(100);
   const [desc,setdesc]=useState("None");
   const [bg,setbg]=useState("");
@@ -18,7 +18,7 @@ function App() {
   },[city,bg]);
 
   const getbg=async ()=>{
-    const response=await fetch(`https://api.unsplash.com/search/photos?query=${city}&client_id=ygW-jEo1t03oSMyRZMYVURUv_nP3msiWK6Xko5i81XQ`);
+    const response=await fetch(`https://api.unsplash.com/search/photos?query=${city}&client_id=CLIENT ID`);
     const data=await response.json();
     setbg(data.results[0].links.download);
   }
