@@ -4,7 +4,6 @@ import {Form,FormControl,Button,Col} from 'react-bootstrap';
 import './App.css';
 
 function App() {
-  const Key="2f331346524b0f732e98a8d5e50b0a58"
 
 
   const [temp,settemp]=useState(100);
