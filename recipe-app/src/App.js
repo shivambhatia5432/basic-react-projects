@@ -4,7 +4,9 @@ import './App.css';
 import { findRenderedComponentWithType } from 'react-dom/test-utils';
 
 const App = () => {
+    const App_ID="APP_ID";
   
+   const App_Key="c25d2f76b38588d242ddadeefa9a5cbb";
   const [recipes,setrecipes]=useState([]);
   const [search,setsearch]=useState('');
   const [query,setquery]=useState("chicken");
