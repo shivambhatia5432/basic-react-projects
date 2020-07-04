@@ -1,3 +1,4 @@
+It is a simple recipe app I made this app using Reactjs and Edaman API<br/>
 Hosted Link: https://recipe-app-shivam.netlify.app
 
 
